@@ -7,13 +7,18 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+    
+    @IBAction func normalAction(_ sender: UIButton) {
+        BBNormalUIViewController.show(superV: self)
     }
-
-
+    
+    @IBAction func rxSwift(_ sender: UIButton) {
+        BBRxSwiftViewController.show(superV: self)
+    }
+    
 }
 

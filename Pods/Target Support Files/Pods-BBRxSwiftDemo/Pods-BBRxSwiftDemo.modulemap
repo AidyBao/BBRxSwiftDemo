@@ -1,0 +1,6 @@
+framework module Pods_BBRxSwiftDemo {
+  umbrella header "Pods-BBRxSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
